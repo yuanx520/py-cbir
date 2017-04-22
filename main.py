@@ -32,6 +32,7 @@ define("port", default=demo_port, help="run one the given port", type=int)
 def main():
     try:
         tornado.options.parse_command_line()
+        print 'server setup!'
         application = tornado.web.Application(urls, **settings)
         http_server = tornado.httpserver.HTTPServer(application)
         http_server.listen(options.port)

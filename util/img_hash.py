@@ -3,7 +3,7 @@ import os
 import sys
 import glob
 import math
-import Image
+from PIL import Image
 
 EXTS = 'jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG'
 

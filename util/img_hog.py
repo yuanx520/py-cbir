@@ -1,6 +1,6 @@
 import os
 import sys
-import Image 
+from PIL import Image 
 from hog import hog
 from kmeans import kmeans, kmeans_classify, load_centers
 from lsh import LSH_hog

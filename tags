@@ -1,0 +1,323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DsiftExtractor	util/dsift.py	/^class DsiftExtractor:$/;"	kind:class	line:40
+DsiftExtractor	util/img_sift.py	/^from dsift import DsiftExtractor, SingleSiftExtractor$/;"	kind:namespace	line:5
+EXTS	apps/cbir.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2, hamming$/;"	kind:namespace	line:14
+EXTS	util/img_hash.py	/^EXTS = 'jpg', 'jpeg', 'JPG', 'JPEG', 'gif', 'GIF', 'png', 'PNG'$/;"	kind:variable	line:8
+EXTS	util/kmeans.py	/^from img_hash import EXTS$/;"	kind:namespace	line:7
+EXTS	util/prepare.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2 $/;"	kind:namespace	line:2
+EXTS	util/prepare_local.py	/^from img_hash import EXTS$/;"	kind:namespace	line:6
+Extension	util/pyleargist-2.0.5/setup.py	/^from setuptools.extension import Extension$/;"	kind:namespace	line:2
+GlobalMatcher	apps/cbir.py	/^class GlobalMatcher(object):$/;"	kind:class	line:129
+Image	apps/cbir.py	/^from PIL import Image$/;"	kind:namespace	line:10
+Image	util/hsv.py	/^from PIL import Image$/;"	kind:namespace	line:1
+Image	util/img_gist.py	/^from PIL import Image$/;"	kind:namespace	line:3
+Image	util/img_hash.py	/^from PIL import Image$/;"	kind:namespace	line:6
+Image	util/img_histo.py	/^from PIL import Image$/;"	kind:namespace	line:2
+Image	util/img_hog.py	/^from PIL import Image $/;"	kind:namespace	line:3
+Image	util/segment.py	/^import Image$/;"	kind:namespace	line:5
+LSH_hog	apps/cbir.py	/^from lsh import LSH_hog, LSH_sift$/;"	kind:namespace	line:20
+LSH_hog	util/img_hog.py	/^from lsh import LSH_hog$/;"	kind:namespace	line:6
+LSH_hog	util/lsh.py	/^def LSH_hog(h0):$/;"	kind:function	line:10
+LSH_hog	util/prepare.py	/^from lsh import LSH_hog, LSH_sift$/;"	kind:namespace	line:6
+LSH_sift	apps/cbir.py	/^from lsh import LSH_hog, LSH_sift$/;"	kind:namespace	line:20
+LSH_sift	util/img_sift.py	/^from lsh import LSH_sift$/;"	kind:namespace	line:7
+LSH_sift	util/lsh.py	/^def LSH_sift(h0):$/;"	kind:function	line:21
+LSH_sift	util/prepare.py	/^from lsh import LSH_hog, LSH_sift$/;"	kind:namespace	line:6
+LocalMatcher	apps/cbir.py	/^class LocalMatcher(object):$/;"	kind:class	line:27
+MRFSegmenter	util/segment.py	/^class MRFSegmenter(object):$/;"	kind:class	line:9
+MainHandler	apps/cbir.py	/^class MainHandler(tornado.web.RequestHandler):$/;"	kind:class	line:229
+Nangles	util/dsift.py	/^Nangles = 8$/;"	kind:variable	line:19
+Nbins	util/dsift.py	/^Nbins = 4$/;"	kind:variable	line:20
+Nsamples	util/dsift.py	/^Nsamples = Nbins**2$/;"	kind:variable	line:21
+Prepare	util/prepare_local.py	/^class Prepare(object):$/;"	kind:class	line:11
+PyObject	util/pyleargist-2.0.5/src/leargist.pyx	/^from cpython cimport PyObject, Py_INCREF$/;"	kind:namespace	line:3
+Py_INCREF	util/pyleargist-2.0.5/src/leargist.pyx	/^from cpython cimport PyObject, Py_INCREF$/;"	kind:namespace	line:3
+SETNAME	apps/cbir.py	/^SETNAME = 'test'$/;"	kind:variable	line:24
+SingleSiftExtractor	util/dsift.py	/^class SingleSiftExtractor(DsiftExtractor):$/;"	kind:class	line:175
+SingleSiftExtractor	util/img_sift.py	/^from dsift import DsiftExtractor, SingleSiftExtractor$/;"	kind:namespace	line:5
+__init__	apps/cbir.py	/^    def __init__(self, setname):$/;"	kind:member	line:131
+__init__	apps/cbir.py	/^    def __init__(self, setname):$/;"	kind:member	line:29
+__init__	util/dsift.py	/^    def __init__(self, gridSpacing, patchSize,$/;"	kind:member	line:47
+__init__	util/dsift.py	/^    def __init__(self, patchSize,$/;"	kind:member	line:180
+__init__	util/prepare_local.py	/^    def __init__(self):$/;"	kind:member	line:12
+__init__	util/segment.py	/^    def __init__(self):$/;"	kind:member	line:10
+__init__.py	apps/__init__.py	1;"	kind:file	line:1
+abs_dist	apps/cbir.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo, abs_dist$/;"	kind:namespace	line:15
+abs_dist	util/img_histo.py	/^def abs_dist(h1, h2):$/;"	kind:function	line:59
+alpha	util/dsift.py	/^alpha = 9.0$/;"	kind:variable	line:22
+angles	util/dsift.py	/^angles = np.array(range(Nangles)) * 2.0 * np.pi \/ Nangles$/;"	kind:variable	line:23
+arctan2	util/hog.py	/^from scipy import sqrt, pi, arctan2, cos, sin$/;"	kind:namespace	line:3
+array	util/kmeans.py	/^from numpy import array$/;"	kind:namespace	line:6
+array	util/lsh.py	/^from numpy import array, floor$/;"	kind:namespace	line:1
+author	util/pyleargist-2.0.5/setup.py	/^      author='Olivier Grisel',$/;"	kind:variable	line:15
+author_email	util/pyleargist-2.0.5/setup.py	/^      author_email='olivier.grisel@ensta.org',$/;"	kind:variable	line:16
+avg	util/img_hash.py	/^avg = lambda x: sum([i*c for i, c in enumerate(x)]) \/ (sum(x) + 0.1)$/;"	kind:variable	line:27
+avg	util/segment.py	/^from img_hash import avg, update $/;"	kind:namespace	line:7
+bin_size	util/img_histo.py	/^bin_size = 32$/;"	kind:variable	line:9
+blending	apps/cbir.py	/^from rerank import blending, ensembling$/;"	kind:namespace	line:21
+blending	util/rerank.py	/^def blending(result_lists, max_len=5, max_weight=-1):$/;"	kind:function	line:4
+calculate_sift_grid	util/dsift.py	/^    def calculate_sift_grid(self,image,gridH,gridW):$/;"	kind:member	line:129
+cbir	urls.py	/^from apps import cbir $/;"	kind:namespace	line:3
+cbir.py	apps/cbir.py	1;"	kind:file	line:1
+center_path	util/img_hog.py	/^center_path = os.path.join(cur_path, '..\/conf\/hog_kmeans.txt')$/;"	kind:variable	line:9
+center_path	util/img_sift.py	/^center_path = os.path.join(cur_path, '..\/conf\/sift_kmeans.txt')$/;"	kind:variable	line:18
+centers	util/img_hog.py	/^centers = None$/;"	kind:variable	line:11
+centers	util/img_sift.py	/^centers = None$/;"	kind:variable	line:20
+classifiers	util/pyleargist-2.0.5/setup.py	/^      classifiers=[], # Get strings from http:\/\/pypi.python.org\/pypi?%3Aaction=list_classifiers$/;"	kind:variable	line:13
+color_gist	util/pyleargist-2.0.5/src/leargist.pyx	/^def color_gist(im, nblocks=4, orientations=(8, 8, 4)):$/;"	kind:function	line:28
+color_gist_scaletab	util/pyleargist-2.0.5/src/leargist.pyx	/^    cdef float* color_gist_scaletab(color_image_t* src, int nblocks, int n_scale, int* n_orientations)$/;"	kind:function	line:25
+color_image_delete	util/pyleargist-2.0.5/src/leargist.pyx	/^    cdef void color_image_delete(color_image_t *image)$/;"	kind:function	line:22
+color_image_new	util/pyleargist-2.0.5/src/leargist.pyx	/^    cdef color_image_t* color_image_new(int width, int height)$/;"	kind:function	line:21
+colorsys	util/hsv.py	/^import colorsys$/;"	kind:namespace	line:2
+config	main.py	/^import logging.config$/;"	kind:namespace	line:24
+convert2hsv	util/hsv.py	/^def convert2hsv(im):$/;"	kind:function	line:3
+convert2hsv	util/img_histo.py	/^from hsv import convert2hsv$/;"	kind:namespace	line:3
+copy	util/kmeans.py	/^import copy$/;"	kind:namespace	line:4
+copy	util/prepare_local.py	/^import copy$/;"	kind:namespace	line:4
+copy	util/rerank.py	/^import copy$/;"	kind:namespace	line:2
+cos	util/hog.py	/^from scipy import sqrt, pi, arctan2, cos, sin$/;"	kind:namespace	line:3
+cur_path	apps/cbir.py	/^cur_path = os.path.dirname(__file__)$/;"	kind:variable	line:12
+cur_path	main.py	/^cur_path = os.path.dirname(__file__)$/;"	kind:variable	line:25
+cur_path	util/img_gist.py	/^cur_path = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:5
+cur_path	util/img_hog.py	/^cur_path = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:8
+cur_path	util/img_sift.py	/^cur_path = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:17
+cur_platform	main.py	/^cur_platform = platform.platform()$/;"	kind:variable	line:8
+cython	util/pyleargist-2.0.5/src/leargist.pyx	/^import cython $/;"	kind:namespace	line:4
+dataset	util/prepare_local.py	/^    dataset = 'infochimps'$/;"	kind:variable	line:37
+db	settings.py	/^db = {$/;"	kind:variable	line:18
+define	main.py	/^from tornado.options import define, options$/;"	kind:namespace	line:14
+demo	util/img_hash.py	/^def demo(sys):$/;"	kind:function	line:83
+demo_port	main.py	/^from settings import settings, demo_port$/;"	kind:namespace	line:21
+demo_port	settings.py	/^demo_port = 19999$/;"	kind:variable	line:5
+description	util/pyleargist-2.0.5/setup.py	/^      description="GIST Image descriptor for scene recognition",$/;"	kind:variable	line:11
+dsift.py	util/dsift.py	1;"	kind:file	line:1
+eculidean_dist	apps/cbir.py	/^from kmeans import eculidean_dist, norm0_dist$/;"	kind:namespace	line:17
+eculidean_dist	util/kmeans.py	/^def eculidean_dist(h1, h2):$/;"	kind:function	line:12
+ensembling	apps/cbir.py	/^from rerank import blending, ensembling$/;"	kind:namespace	line:21
+ensembling	util/rerank.py	/^def ensembling(result_lists, max_len=5, max_weight=-1):$/;"	kind:function	line:23
+ext_modules	util/pyleargist-2.0.5/setup.py	/^      ext_modules=[$/;"	kind:variable	line:21
+extra_compile_args	util/pyleargist-2.0.5/setup.py	/^              extra_compile_args=['-DUSE_GIST', '-DSTANDALONE_GIST'],$/;"	kind:variable	line:30
+extractor	util/dsift.py	/^    extractor = DsiftExtractor(8,16,1)$/;"	kind:variable	line:193
+extractor	util/dsift.py	/^    extractor = SingleSiftExtractor(16)$/;"	kind:variable	line:203
+extractor	util/img_sift.py	/^extractor = DsiftExtractor(12, 24, 1, 0.8, 0.1)$/;"	kind:variable	line:14
+extractor2	util/img_sift.py	/^extractor2 = SingleSiftExtractor(24, 1, 0.8, 0.2)$/;"	kind:variable	line:15
+feaArrSingle	util/dsift.py	/^    feaArrSingle = extractor.process_image(image[:16,:16])$/;"	kind:variable	line:204
+floor	util/lsh.py	/^from numpy import array, floor$/;"	kind:namespace	line:1
+free	util/pyleargist-2.0.5/src/leargist.pyx	/^from libc.stdlib cimport free$/;"	kind:namespace	line:1
+free_desc	util/pyleargist-2.0.5/src/leargist.pyx	/^    cdef void free_desc(float *d)$/;"	kind:function	line:26
+gen_dgauss	util/dsift.py	/^def gen_dgauss(sigma):$/;"	kind:function	line:25
+get	apps/cbir.py	/^    def get(self):$/;"	kind:member	line:231
+get_global_vars	apps/cbir.py	/^def get_global_vars():$/;"	kind:function	line:220
+gist	apps/cbir.py	/^from img_gist import gist$/;"	kind:namespace	line:16
+gist	util/img_gist.py	/^def gist(im):$/;"	kind:function	line:7
+gist	util/prepare.py	/^from img_gist import gist$/;"	kind:namespace	line:4
+glob	util/img_hash.py	/^import glob$/;"	kind:namespace	line:4
+glob	util/segment.py	/^import glob$/;"	kind:namespace	line:4
+gothrough_img	util/img_histo.py	/^def gothrough_img(im, binsize=64):$/;"	kind:function	line:19
+gray_histo	apps/cbir.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo, abs_dist$/;"	kind:namespace	line:15
+gray_histo	util/img_histo.py	/^def gray_histo(im):$/;"	kind:function	line:11
+gray_histo	util/prepare.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo$/;"	kind:namespace	line:3
+hamming	apps/cbir.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2, hamming$/;"	kind:namespace	line:14
+hamming	util/img_hash.py	/^def hamming(h1, h2):$/;"	kind:function	line:10
+hashlib	apps/cbir.py	/^import hashlib$/;"	kind:namespace	line:5
+hog	util/hog.py	/^def hog(image, orientations=9, pixels_per_cell=(9,9), cells_per_block=(2,2), normalise=True):$/;"	kind:function	line:6
+hog	util/img_hog.py	/^from hog import hog$/;"	kind:namespace	line:4
+hog.py	util/hog.py	1;"	kind:file	line:1
+hog2	apps/cbir.py	/^from img_hog import hog2, hog3, hog_lsh_list, hog_histo$/;"	kind:namespace	line:18
+hog2	util/img_hog.py	/^def hog2(im):$/;"	kind:function	line:13
+hog2	util/prepare_local.py	/^from img_hog import hog2, hog_histo $/;"	kind:namespace	line:7
+hog3	apps/cbir.py	/^from img_hog import hog2, hog3, hog_lsh_list, hog_histo$/;"	kind:namespace	line:18
+hog3	util/img_hog.py	/^def hog3(im):$/;"	kind:function	line:25
+hog3	util/prepare.py	/^from img_hog import hog3, hog_histo, hog_lsh_list$/;"	kind:namespace	line:5
+hog_histo	apps/cbir.py	/^from img_hog import hog2, hog3, hog_lsh_list, hog_histo$/;"	kind:namespace	line:18
+hog_histo	util/img_hog.py	/^def hog_histo(im, p_centers=center_path):$/;"	kind:function	line:47
+hog_histo	util/prepare.py	/^from img_hog import hog3, hog_histo, hog_lsh_list$/;"	kind:namespace	line:5
+hog_histo	util/prepare_local.py	/^from img_hog import hog2, hog_histo $/;"	kind:namespace	line:7
+hog_lsh_list	apps/cbir.py	/^from img_hog import hog2, hog3, hog_lsh_list, hog_histo$/;"	kind:namespace	line:18
+hog_lsh_list	util/img_hog.py	/^def hog_lsh_list(im):$/;"	kind:function	line:39
+hog_lsh_list	util/prepare.py	/^from img_hog import hog3, hog_histo, hog_lsh_list$/;"	kind:namespace	line:5
+hsv.py	util/hsv.py	1;"	kind:file	line:1
+hsv_histo	apps/cbir.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo, abs_dist$/;"	kind:namespace	line:15
+hsv_histo	util/img_histo.py	/^def hsv_histo(im):$/;"	kind:function	line:50
+hsv_histo	util/prepare.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo$/;"	kind:namespace	line:3
+httpserver	main.py	/^import tornado.httpserver$/;"	kind:namespace	line:16
+idx_hog	util/lsh.py	/^def idx_hog(p):$/;"	kind:function	line:3
+idx_sift	util/lsh.py	/^def idx_sift(p):$/;"	kind:function	line:15
+ilog	main.py	/^ilog = logging.getLogger('root')$/;"	kind:variable	line:28
+image	util/dsift.py	/^    image = misc.imread('lena.png')$/;"	kind:variable	line:194
+image	util/dsift.py	/^    image = np.mean(np.double(image),axis=2)$/;"	kind:variable	line:195
+img_gist.py	util/img_gist.py	1;"	kind:file	line:1
+img_hash.py	util/img_hash.py	1;"	kind:file	line:1
+img_histo.py	util/img_histo.py	1;"	kind:file	line:1
+img_hog.py	util/img_hog.py	1;"	kind:file	line:1
+img_sift.py	util/img_sift.py	1;"	kind:file	line:1
+include_dirs	util/pyleargist-2.0.5/setup.py	/^              include_dirs=[np.get_include(), 'lear_gist',],$/;"	kind:variable	line:29
+index_alg	apps/cbir.py	/^index_alg = None$/;"	kind:variable	line:217
+init	util/segment.py	/^    def init(self, im):$/;"	kind:member	line:13
+ioloop	main.py	/^import tornado.ioloop$/;"	kind:namespace	line:17
+json_encode	apps/cbir.py	/^from tornado.escape import json_encode$/;"	kind:namespace	line:8
+keywords	util/pyleargist-2.0.5/setup.py	/^      keywords=('image-processing computer-vision scene-recognition'),$/;"	kind:variable	line:14
+kmeans	util/img_hog.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:5
+kmeans	util/img_sift.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:6
+kmeans	util/kmeans.py	/^def kmeans(p_feat, p_out, nclass=100, max_iter=100, percent=0.02, theta=0.01):$/;"	kind:function	line:37
+kmeans	util/prepare_local.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:9
+kmeans.py	util/kmeans.py	1;"	kind:file	line:1
+kmeans_classify	util/img_hog.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:5
+kmeans_classify	util/img_sift.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:6
+kmeans_classify	util/kmeans.py	/^def kmeans_classify(centers, h):$/;"	kind:function	line:18
+kmeans_classify	util/prepare_local.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:9
+leargist	util/pyleargist-2.0.5/src/leargist.pyx	/^cimport leargist$/;"	kind:namespace	line:6
+leargist.pyx	util/pyleargist-2.0.5/src/leargist.pyx	1;"	kind:file	line:1
+libraries	util/pyleargist-2.0.5/setup.py	/^              libraries=['m', 'fftw3f'],$/;"	kind:variable	line:28
+license	util/pyleargist-2.0.5/setup.py	/^      license='PSL',$/;"	kind:variable	line:18
+load	apps/cbir.py	/^    def load(self, pin, obj):$/;"	kind:member	line:149
+load	apps/cbir.py	/^    def load(self, pin, obj):$/;"	kind:member	line:36
+load_centers	util/img_hog.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:5
+load_centers	util/img_sift.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:6
+load_centers	util/kmeans.py	/^def load_centers(p_center):$/;"	kind:function	line:31
+load_centers	util/prepare_local.py	/^from kmeans import kmeans, kmeans_classify, load_centers$/;"	kind:namespace	line:9
+log_conf_file	main.py	/^log_conf_file = os.path.join(cur_path, '.\/conf\/log.conf')$/;"	kind:variable	line:26
+logging	main.py	/^import logging$/;"	kind:namespace	line:23
+logging	main.py	/^import logging.config$/;"	kind:namespace	line:24
+long_description	util/pyleargist-2.0.5/setup.py	/^      long_description=file('README.txt').read(),$/;"	kind:variable	line:12
+lsh.py	util/lsh.py	1;"	kind:file	line:1
+main	main.py	/^def main():$/;"	kind:function	line:32
+main.py	main.py	1;"	kind:file	line:1
+match	apps/cbir.py	/^    def match(self, img_dst, obj, f_func, d_func):$/;"	kind:member	line:157
+match	apps/cbir.py	/^    def match(self, img_dst, obj, f_func, h_func, d_func):$/;"	kind:member	line:47
+match2	apps/cbir.py	/^    def match2(self, img_dst, obj, f_func, h_func, d_func):$/;"	kind:member	line:60
+match3	apps/cbir.py	/^    def match3(self, img_dst, obj, f_func, h_func, d_func, thres=0.3):$/;"	kind:member	line:84
+math	util/img_hash.py	/^import math$/;"	kind:namespace	line:5
+math	util/kmeans.py	/^import math$/;"	kind:namespace	line:2
+math	util/prepare_local.py	/^import math$/;"	kind:namespace	line:2
+math	util/segment.py	/^import math$/;"	kind:namespace	line:6
+misc	util/dsift.py	/^    from scipy import misc$/;"	kind:namespace	line:192
+misc	util/hog.py	/^from scipy import misc$/;"	kind:namespace	line:2
+misc	util/img_sift.py	/^from scipy import misc$/;"	kind:namespace	line:4
+misc	util/prepare_local.py	/^from scipy import misc$/;"	kind:namespace	line:5
+n_bin	util/img_histo.py	/^n_bin = 8$/;"	kind:variable	line:8
+norm0_dist	apps/cbir.py	/^from kmeans import eculidean_dist, norm0_dist$/;"	kind:namespace	line:17
+norm0_dist	util/kmeans.py	/^def norm0_dist(h1, h2):$/;"	kind:function	line:9
+normalize	util/img_histo.py	/^normalize = lambda x: [float(v)\/sum(x) for v in x]$/;"	kind:variable	line:5
+normalize_sift	util/dsift.py	/^    def normalize_sift(self,feaArr):$/;"	kind:member	line:157
+np	util/dsift.py	/^import numpy as np$/;"	kind:namespace	line:14
+np	util/hog.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	util/img_sift.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	util/kmeans.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	util/pyleargist-2.0.5/setup.py	/^import numpy as np $/;"	kind:namespace	line:5
+np	util/pyleargist-2.0.5/src/leargist.pyx	/^cimport numpy as np$/;"	kind:namespace	line:8
+np	util/pyleargist-2.0.5/src/leargist.pyx	/^import numpy as np $/;"	kind:namespace	line:7
+options	main.py	/^from tornado.options import define, options$/;"	kind:namespace	line:14
+os	apps/cbir.py	/^import os$/;"	kind:namespace	line:1
+os	main.py	/^import os$/;"	kind:namespace	line:3
+os	settings.py	/^import os.path$/;"	kind:namespace	line:3
+os	util/img_gist.py	/^import os$/;"	kind:namespace	line:1
+os	util/img_hash.py	/^import os$/;"	kind:namespace	line:2
+os	util/img_hog.py	/^import os$/;"	kind:namespace	line:1
+os	util/img_sift.py	/^import os$/;"	kind:namespace	line:1
+os	util/kmeans.py	/^import os$/;"	kind:namespace	line:1
+os	util/prepare.py	/^import os$/;"	kind:namespace	line:1
+os	util/prepare_local.py	/^import os$/;"	kind:namespace	line:1
+os	util/pyleargist-2.0.5/setup.py	/^import sys, os$/;"	kind:namespace	line:4
+os	util/segment.py	/^import os$/;"	kind:namespace	line:2
+otsu_hash	apps/cbir.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2, hamming$/;"	kind:namespace	line:14
+otsu_hash	util/img_hash.py	/^def otsu_hash(im):$/;"	kind:function	line:30
+otsu_hash	util/prepare.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2 $/;"	kind:namespace	line:2
+otsu_hash2	apps/cbir.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2, hamming$/;"	kind:namespace	line:14
+otsu_hash2	util/img_hash.py	/^def otsu_hash2(im):$/;"	kind:function	line:47
+otsu_hash2	util/prepare.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2 $/;"	kind:namespace	line:2
+package_dir	util/pyleargist-2.0.5/setup.py	/^      package_dir={'': 'src'},$/;"	kind:variable	line:19
+path	settings.py	/^import os.path$/;"	kind:namespace	line:3
+phash	apps/cbir.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2, hamming$/;"	kind:namespace	line:14
+phash	util/img_hash.py	/^def phash(im):$/;"	kind:function	line:18
+phash	util/prepare.py	/^from img_hash import EXTS, phash, otsu_hash, otsu_hash2 $/;"	kind:namespace	line:2
+phash_alg	apps/cbir.py	/^phash_alg = None$/;"	kind:variable	line:216
+pi	util/hog.py	/^from scipy import sqrt, pi, arctan2, cos, sin$/;"	kind:namespace	line:3
+platform	main.py	/^import platform$/;"	kind:namespace	line:7
+post	apps/cbir.py	/^    def post(self):$/;"	kind:member	line:234
+prep	util/prepare_local.py	/^    prep = Prepare()$/;"	kind:variable	line:36
+prepare	util/prepare.py	/^def prepare(setname, func, p_out):$/;"	kind:function	line:9
+prepare	util/prepare_local.py	/^    def prepare(self, set_name, func, p_out):$/;"	kind:member	line:15
+prepare.py	util/prepare.py	1;"	kind:file	line:1
+prepare_all	util/prepare.py	/^def prepare_all(setname):$/;"	kind:function	line:44
+prepare_local	util/prepare.py	/^def prepare_local(setname, f_func, h_func, p_out):$/;"	kind:function	line:25
+prepare_local.py	util/prepare_local.py	1;"	kind:file	line:1
+prepare_lsh.py	util/prepare_lsh.py	1;"	kind:file	line:1
+process_image	util/dsift.py	/^                       verbose = True):$/;"	kind:member	line:87
+process_image	util/dsift.py	/^    def process_image(self, image):$/;"	kind:member	line:187
+pyplot	util/dsift.py	/^from matplotlib import pyplot$/;"	kind:namespace	line:16
+random	apps/cbir.py	/^import random$/;"	kind:namespace	line:3
+random	util/kmeans.py	/^import random$/;"	kind:namespace	line:3
+random	util/prepare_local.py	/^import random$/;"	kind:namespace	line:3
+rerank.py	util/rerank.py	1;"	kind:file	line:1
+rgb_histo	apps/cbir.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo, abs_dist$/;"	kind:namespace	line:15
+rgb_histo	util/img_histo.py	/^def rgb_histo(im):$/;"	kind:function	line:34
+rgb_histo	util/prepare.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo$/;"	kind:namespace	line:3
+sample	util/img_histo.py	/^sample = lambda x: [sum(x[i:i+4]) for i in xrange(0, 255, 4)]$/;"	kind:variable	line:6
+save_centers	util/kmeans.py	/^def save_centers(p_out, centers):$/;"	kind:function	line:26
+search	apps/cbir.py	/^    def search(self, dst_thum, debug=False):$/;"	kind:member	line:103
+search	apps/cbir.py	/^    def search(self, dst_thum, debug=False):$/;"	kind:member	line:166
+segment.py	util/segment.py	1;"	kind:file	line:1
+settings	main.py	/^from settings import settings, demo_port$/;"	kind:namespace	line:21
+settings	settings.py	/^settings = {$/;"	kind:variable	line:7
+settings.py	settings.py	1;"	kind:file	line:1
+setup	util/pyleargist-2.0.5/setup.py	/^from setuptools import setup$/;"	kind:namespace	line:1
+setup.py	util/pyleargist-2.0.5/setup.py	1;"	kind:file	line:1
+sift	util/img_sift.py	/^def sift(im):$/;"	kind:function	line:22
+sift2	apps/cbir.py	/^from img_sift import sift2, sift_histo$/;"	kind:namespace	line:19
+sift2	util/img_sift.py	/^def sift2(im):$/;"	kind:function	line:28
+sift2	util/prepare.py	/^from img_sift import sift2, sift_lsh_list, sift_histo$/;"	kind:namespace	line:7
+sift2	util/prepare_local.py	/^from img_sift import sift2$/;"	kind:namespace	line:8
+sift_histo	apps/cbir.py	/^from img_sift import sift2, sift_histo$/;"	kind:namespace	line:19
+sift_histo	util/img_sift.py	/^def sift_histo(im, p_centers=center_path):$/;"	kind:function	line:45
+sift_histo	util/prepare.py	/^from img_sift import sift2, sift_lsh_list, sift_histo$/;"	kind:namespace	line:7
+sift_lsh_list	util/img_sift.py	/^def sift_lsh_list(im):$/;"	kind:function	line:37
+sift_lsh_list	util/prepare.py	/^from img_sift import sift2, sift_lsh_list, sift_histo$/;"	kind:namespace	line:7
+signal	util/dsift.py	/^from scipy import signal$/;"	kind:namespace	line:15
+sin	util/hog.py	/^from scipy import sqrt, pi, arctan2, cos, sin$/;"	kind:namespace	line:3
+sqrt	util/hog.py	/^from scipy import sqrt, pi, arctan2, cos, sin$/;"	kind:namespace	line:3
+square_eculidean_dist	util/kmeans.py	/^def square_eculidean_dist(h1, h2):$/;"	kind:function	line:15
+stat	util/img_histo.py	/^def stat(v_list, v_len=64):$/;"	kind:function	line:28
+string	apps/cbir.py	/^import string$/;"	kind:namespace	line:4
+sys	apps/cbir.py	/^import sys$/;"	kind:namespace	line:2
+sys	main.py	/^import sys$/;"	kind:namespace	line:4
+sys	util/img_gist.py	/^import sys$/;"	kind:namespace	line:2
+sys	util/img_hash.py	/^import sys$/;"	kind:namespace	line:3
+sys	util/img_hog.py	/^import sys$/;"	kind:namespace	line:2
+sys	util/img_sift.py	/^import sys$/;"	kind:namespace	line:2
+sys	util/pyleargist-2.0.5/setup.py	/^import sys, os$/;"	kind:namespace	line:4
+sys	util/segment.py	/^import sys$/;"	kind:namespace	line:3
+test	util/hsv.py	/^def test():$/;"	kind:function	line:19
+test	util/img_gist.py	/^def test(): $/;"	kind:function	line:15
+test	util/img_hash.py	/^def test():$/;"	kind:function	line:78
+test	util/img_histo.py	/^def test():$/;"	kind:function	line:64
+test	util/img_hog.py	/^def test():$/;"	kind:function	line:59
+test	util/img_sift.py	/^def test():$/;"	kind:function	line:56
+test	util/kmeans.py	/^def test():$/;"	kind:function	line:81
+test	util/segment.py	/^def test():$/;"	kind:function	line:29
+tornado	apps/cbir.py	/^import tornado.web$/;"	kind:namespace	line:7
+tornado	main.py	/^import tornado.httpserver$/;"	kind:namespace	line:16
+tornado	main.py	/^import tornado.ioloop$/;"	kind:namespace	line:17
+tornado	main.py	/^import tornado.web$/;"	kind:namespace	line:15
+traceback	main.py	/^import traceback$/;"	kind:namespace	line:18
+transform	util/prepare_lsh.py	/^def transform(p_in, lsh_func, p_out):$/;"	kind:function	line:3
+uniform_filter	util/hog.py	/^from scipy.ndimage import uniform_filter$/;"	kind:namespace	line:4
+update	util/img_hash.py	/^update = lambda oldi, oldv, newi, newv: (oldi, oldv) if oldv > newv else (newi, newv) $/;"	kind:variable	line:28
+update	util/segment.py	/^from img_hash import avg, update $/;"	kind:namespace	line:7
+upload_prefix	apps/cbir.py	/^upload_prefix = '.\/static\/upload\/'$/;"	kind:variable	line:23
+url	util/pyleargist-2.0.5/setup.py	/^      url='http:\/\/www.bitbucket.org\/ogrisel\/pyleargist\/src\/tip\/',$/;"	kind:variable	line:17
+urls	main.py	/^from urls import urls$/;"	kind:namespace	line:20
+urls	urls.py	/^urls = [$/;"	kind:variable	line:5
+urls.py	urls.py	1;"	kind:file	line:1
+version	util/pyleargist-2.0.5/setup.py	/^      version=version,$/;"	kind:variable	line:10
+version	util/pyleargist-2.0.5/setup.py	/^version = file('VERSION.txt').read().strip()$/;"	kind:variable	line:7
+web	apps/cbir.py	/^import tornado.web$/;"	kind:namespace	line:7
+web	main.py	/^import tornado.web$/;"	kind:namespace	line:15
+yuv_histo	apps/cbir.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo, abs_dist$/;"	kind:namespace	line:15
+yuv_histo	util/img_histo.py	/^def yuv_histo(im):$/;"	kind:function	line:42
+yuv_histo	util/prepare.py	/^from img_histo import gray_histo, rgb_histo, yuv_histo, hsv_histo$/;"	kind:namespace	line:3

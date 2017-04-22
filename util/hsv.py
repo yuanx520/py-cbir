@@ -1,4 +1,5 @@
-import Image, colorsys
+from PIL import Image
+import colorsys
 def convert2hsv(im):
     if not isinstance(im, Image.Image):
         im = Image.open(im)

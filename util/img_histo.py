@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import Image
+from PIL import Image
 from hsv import convert2hsv
 
 normalize = lambda x: [float(v)/sum(x) for v in x]

@@ -43,23 +43,30 @@ def prepare_local(setname, f_func, h_func, p_out):
 
 def prepare_all(setname):
     prepare(dataset, phash, 'phash')
+    print 'done!'
     prepare(dataset, otsu_hash, 'otsu_hash')
+    print 'done!'    
     prepare(dataset, otsu_hash2, 'otsu_hash2')
-
+    print 'done!'
     prepare(dataset, gray_histo, 'grayhisto')
+    print 'done!'    
     prepare(dataset, rgb_histo, 'rgbhisto')
+    print 'done!'    
     prepare(dataset, yuv_histo, 'yuvhisto')
+    print 'done!'    
     prepare(dataset, hsv_histo, 'hsvhisto')
+    print 'done!'    
 
     prepare(dataset, gist, 'gist')
-
-    prepare_local(dataset, hog3, LSH_hog, 'hog_lsh')
-    prepare_local(dataset, sift2, LSH_sift, 'sift_lsh')
+    print 'done!'    
+    #prepare_local(dataset, hog3, LSH_hog, 'hog_lsh')
+    #prepare_local(dataset, sift2, LSH_sift, 'sift_lsh')
 
 if __name__ == '__main__':
     #dataset = 'simpcity'
     #dataset = 'infochimps'
-    dataset = 'ferrari'
+    # dataset = 'ferrari'
+    dataset = 'test'
     #dataset = 'mixed'
     prepare_all(dataset)
 

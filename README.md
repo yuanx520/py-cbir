@@ -9,6 +9,7 @@ Demo of Content Based Image Retrieval, implemented by Python and Tornado.
 * HoG and LSH (built by Kmeans clustering)
 * SIFT and LSH (built by Kmeans clustering)
 * Dense SIFT
+* Deep CNN Features extracted by caffe (added by Xin Yuan: thuyuanxin@gmail.com)
 
 ## Distance functions
 
